@@ -9,7 +9,8 @@
   <body>
     <form action="" id="form-generation" onsubmit="return false">
       <h2 class="form-heading">Quiz Generator</h2>
-      <label for="trivia_amount" class="form-titles">Number of Questions</label><br />
+      <label for="trivia_amount" class="form-titles">Number of Questions</label
+      ><br />
       <input
         type="number"
         name="trivia_amount"
@@ -22,7 +23,8 @@
 
       <br />
 
-      <label for="trivia_category" class="form-titles" >Select Category</label><br>
+      <label for="trivia_category" class="form-titles">Select Category</label
+      ><br />
       <select name="trivia_category" class="form-control">
         <option value="any">Any Category</option>
         <option value="9">General Knowledge</option>
@@ -53,9 +55,11 @@
 
       <br />
 
-      <label for="trivia_difficulty" class="form-titles" >Select Difficulty</label><br>
+      <label for="trivia_difficulty" class="form-titles"
+        >Select Difficulty</label
+      ><br />
       <select name="trivia_difficulty" class="form-control">
-        <option value="any" >Any Difficulty</option>
+        <option value="any">Any Difficulty</option>
         <option value="easy">Easy</option>
         <option value="medium">Medium</option>
         <option value="hard">Hard</option>
@@ -63,14 +67,14 @@
 
       <br />
 
-      <label for="trivia_type" class="form-titles" >Select Type</label><br>
+      <label for="trivia_type" class="form-titles">Select Type</label><br />
       <select name="trivia_type" class="form-control">
-        <option value="any" >Any Type</option>
+        <option value="any">Any Type</option>
         <option value="multiple">Multiple Choice</option>
         <option value="boolean">True / False</option>
       </select>
 
-      <br>
+      <br />
 
       <button id="trivia_generate">Generate Quiz</button>
     </form>

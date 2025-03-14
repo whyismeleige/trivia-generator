@@ -1,138 +1,141 @@
-*{
-    margin: none;
-    padding: none;
-    border: none;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+  margin: none;
+  padding: none;
+  border: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-input{
-    all: unset;
+input {
+  all: unset;
 }
 
-select{
-    all: unset;
+select {
+  all: unset;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: linear-gradient(45deg,red,blue);
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, red, blue);
 }
 
-#form-generation{
-    background: linear-gradient(225deg,rgba(255, 0, 0, 0.268),rgba(0, 94, 255, 0.833));
-    width: 80vw;
-    border-radius: 10px;
-    color: rgb(245, 245, 245);
-    border: 5px solid black;
+#form-generation {
+  background: linear-gradient(
+    225deg,
+    rgba(255, 0, 0, 0.268),
+    rgba(0, 94, 255, 0.833)
+  );
+  width: 80vw;
+  border-radius: 10px;
+  color: rgb(245, 245, 245);
+  border: 5px solid black;
 }
 
-#form-generation:hover{
-    transform: translate(5px,5px);
+#form-generation:hover {
+  transform: translate(5px, 5px);
 }
 
-.form-heading{
-    display: flex;
-    justify-content: center;
-    font-size: 2.5vw;
+.form-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5vw;
 }
 
-.question{
-    display: flex;
-    justify-content: center;
-    font-size: 2vw;
-    margin: 1vw 1vw 2vw 1vw;
+.question {
+  display: flex;
+  justify-content: center;
+  font-size: 2vw;
+  margin: 1vw 1vw 2vw 1vw;
 }
 
-.form-titles{
-    font-size: 2vw;
-    margin: 0vw 0.5vw 0 0.5vw;
+.form-titles {
+  font-size: 2vw;
+  margin: 0vw 0.5vw 0 0.5vw;
 }
 
-.form-control{
-    background-color: white;
-    border: 3px solid black;
-    border-radius: 10px;
-    padding: 1vw;
-    width: 70vw;
-    margin: 0.5vw 1vw 1vw 1vw;
-    color: black;
-    font-size: 2vw;
+.form-control {
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 1vw;
+  width: 70vw;
+  margin: 0.5vw 1vw 1vw 1vw;
+  color: black;
+  font-size: 2vw;
 }
 
-.form-control:hover{
-    transform: translate(2px,2px);
+.form-control:hover {
+  transform: translate(2px, 2px);
 }
 
-#trivia_generate{
-    all: unset;
-    margin: 0 1vw 1vw 35vw;
-    background-color: black;
-    padding: 1vw;
-    font-size: 1.5vw;
-    border: 2px solid white;
-    border-radius: 5px;
+#trivia_generate {
+  all: unset;
+  margin: 0 1vw 1vw 35vw;
+  background-color: black;
+  padding: 1vw;
+  font-size: 1.5vw;
+  border: 2px solid white;
+  border-radius: 5px;
 }
 
-#trivia_generate:hover{
-    background-color: white;
-    color: black;
-    border-color: black;
-    transform: translate(2px,2px);
+#trivia_generate:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+  transform: translate(2px, 2px);
 }
 
-.optionBox{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.optionBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.bool{
-    flex-direction: row;
-    justify-content: space-evenly;
+.bool {
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    color: black;
-    border: 2px solid black;
-    border-radius: 10px;
-    font-size: 2vw;
-    font-weight: bold;
-    margin-bottom: 2vw;
-    padding: 1vw 0;
-    transition: all 0.2s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 2vw;
+  font-weight: bold;
+  margin-bottom: 2vw;
+  padding: 1vw 0;
+  transition: all 0.2s ease-in-out;
 }
 
 .options {
-    width: 25vw;
+  width: 25vw;
 }
 
 .multiple {
-    width: 50vw;
-    
+  width: 50vw;
 }
 
 .button:hover {
-    background-color: black;
-    color: white;
-    border-color: white;
-    transform: translate(2px, 2px);
+  background-color: black;
+  color: white;
+  border-color: white;
+  transform: translate(2px, 2px);
 }
 
-.correct-option{
-    background-color: rgb(8, 246, 8);
-    pointer-events: "none";
+.correct-option {
+  background-color: rgb(8, 246, 8);
+  pointer-events: "none";
 }
 
-.wrong-option{
-    background-color: red;
-    color: white;
-    pointer-events: "none";
+.wrong-option {
+  background-color: red;
+  color: white;
+  pointer-events: "none";
 }
